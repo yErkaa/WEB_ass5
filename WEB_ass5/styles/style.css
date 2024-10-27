@@ -1,0 +1,79 @@
+body.night-theme {
+    background-color: #333;
+    color: white;
+}
+
+.gallery {
+    text-align: center;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.thumbnails img {
+    width: 500px;
+    height: 70px;
+    cursor: pointer;
+}
+#mainImage {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.custom-navbar {
+    background-color: #5e3517;
+}
+.custom-navbar a {
+    color: #ffffff;
+}
+
+.custom-carousel img {
+    width: 50px;
+    height: 600px;
+    object-fit: cover;
+}
+/* Основные стили для карточек */
+.custom-card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Стили для светлой темы */
+.day-theme .custom-card {
+    background-color: #343a40; /* темный фон для светлой темы */
+    color: white;
+}
+
+/* Стили для ночной темы */
+.night-theme .custom-card {
+    background-color: #f8f9fa; /* светлый фон для темной темы */
+    color: black;
+}
+
+.carousel-caption {
+    bottom: 20px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.btn-primary {
+    background-color: #ff6f00;
+    border-color: #ff6f00;
+}
+.container {
+    text-align: center;
+}
